@@ -1,0 +1,16 @@
+ Graph Theory
+ - path of G is defined as sequence of v0, e0, v1, e1, ..., en-1, vn
+ - e_i = <v_i , v_{i+1}>
+ - length = n (in this case)
+ - Circuits path : v0, e0, ..., en-1, vn, en, v0
+ - Circuits path : v0, e0, ..., en-1, vn where en = <vn , v0>
+ - Unique components = connected graph
+ - No cycle = Forest & Tree if it's connected
+ - Subgraph H is a spanning tree of G if V = W and H is a tree
+ - delta(u,v) = Summation of |u_i - v_i| from i=1 to d (dimension of vector v)
+ 
+ Uniform Spanning Tree
+ - UST measure has a property of negative association
+ - Wilson's algorithm uses loop-erased random walk (LERW) to construct a UST
+ - Uniform spanning tree (T) is selected from capital T uniformly
+   -- P(T = t) = 1/|cap T| ; t \in cap T
