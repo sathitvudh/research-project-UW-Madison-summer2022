@@ -14,3 +14,8 @@
  - Wilson's algorithm uses loop-erased random walk (LERW) to construct a UST
  - Uniform spanning tree (T) is selected from capital T uniformly
    -- P(T = t) = 1/|cap T| ; t \in cap T
+
+Wilson's algorithm high-level idea
+- Pick x0 and x1 and perform LERW to get set_path
+- Given the path, pick another x (x2) and perform LERW, until it connects to the set_path
+- Repeat until the verices are all in the tree
