@@ -1,4 +1,8 @@
-May 19th, 2022
+May 18th, 2022
 - Create Wilson's Algorithm.ipynb (started May 16th, 2022)
 - Implementing the algorithm based on 3x3 sparse Matrix (Not yet completed)
 - Problem: the output should be the coordinate of matrix that already visited and transform into sparse matrix representing network (still not achieved)
+
+May 19th, 2022
+- Rename Wilson's Algorithm.ipynnb to Loop-erased RW_draft.ipynb for avoiding confusion
+- Need modify some steps in cont_LERW to correctly return the result
