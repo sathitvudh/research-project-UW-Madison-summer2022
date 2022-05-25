@@ -6,3 +6,13 @@ May 18th, 2022
 May 19th, 2022
 - Rename Wilson's Algorithm.ipynnb to Loop-erased RW_draft.ipynb for avoiding confusion
 - Need modify some steps in cont_LERW to correctly return the result
+
+May 22th, 2022
+- Revisit the idea of spanning tree and study the implementation for other famous algorithms
+- Draft the implementation when using Wilson's algorithm
+- Try several approaches to get the first step of Wilson's: Fix two random nodes and perform random walk from one to another without loops
+
+May 24th, 2022
+- Complete the draft algorithm that achieves generating the spanning tree from undirected connected graph (unweighted)
+- Consolidate all steps into a function "sample_spanning_tree" and validate the script
+- (Next plan) consider the weighted graph and minimum spanning tree
