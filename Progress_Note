@@ -16,3 +16,7 @@ May 24th, 2022
 - Complete the draft algorithm that achieves generating the spanning tree from undirected connected graph (unweighted)
 - Consolidate all steps into a function "sample_spanning_tree" and validate the script
 - (Next plan) consider the weighted graph and minimum spanning tree
+
+May 26th, 2022
+- Issue: find out how to generate the new path after obtaining the initial path
+- The script is too complex. Need to revisit and, probably, reconstruct
