@@ -20,3 +20,15 @@ May 24th, 2022
 May 26th, 2022
 - Issue: find out how to generate the new path after obtaining the initial path
 - The script is too complex. Need to revisit and, probably, reconstruct
+
+May 28th, 2022
+- Continue fixing bugs
+
+May 29th, 2022
+- Reconstruct the function that achieves generating spanning tree
+- Find out some issue that function does not properly generate some edge cases
+
+May 30th, 2022
+- Issues from May 28th and 29th are resolved!
+- Validate the result and it seems valid
+- Keep performing some validation
