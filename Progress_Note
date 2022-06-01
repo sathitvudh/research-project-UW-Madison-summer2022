@@ -32,3 +32,8 @@ May 30th, 2022
 - Issues from May 28th and 29th are resolved!
 - Validate the result and it seems valid
 - Keep performing some validation
+
+May 31st, 2022
+- Fixed some edge cases bugs
+- Add new function to sanity check that complete graph input should give us uniform spanning tree
+- The function seems to give us uniform spanning tree
