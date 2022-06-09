@@ -37,3 +37,6 @@ May 31st, 2022
 - Fixed some edge cases bugs
 - Add new function to sanity check that complete graph input should give us uniform spanning tree
 - The function seems to give us uniform spanning tree
+
+June 8-10, 2022
+- Create a new jupyter notebook named "Wilson's Algorithm-with-description" which explains how script works step-by-step
