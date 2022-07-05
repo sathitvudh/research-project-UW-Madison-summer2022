@@ -40,3 +40,14 @@ May 31st, 2022
 
 June 8-10, 2022
 - Create a new jupyter notebook named "Wilson's Algorithm-with-description" which explains how script works step-by-step
+
+June 18, 2022
+- Create a draft of degree computation from a spanning tree
+
+June 25, 2022
+- Finish computing degree and start plotting and taking a look at CDF of degrees from many independent spanning trees
+- Issue: find out the aggregation methods for CDFs
+
+Jul 5, 2022
+- Generate many independent spanning trees, calculate their degrees, and plot the CDFs
+- Find the average of each degree's CDF
