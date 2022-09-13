@@ -51,3 +51,28 @@ June 25, 2022
 Jul 5, 2022
 - Generate many independent spanning trees, calculate their degrees, and plot the CDFs
 - Find the average of each degree's CDF
+
+Jul 18, 2022
+- Create line plots for cdf distribution based on completed graph
+- Create histograms for pdf (n = 10 to 500)
+- Issue: program takes too long
+
+Jul 25, 2022
+- Requirement: consider maximum degree among the spanning trees
+- Create a single line plot based on 100 spanning trees generated from completed graphs with different nodes
+
+Aug 20, 2022
+- Requirement: consider the variability of the maximum degree by repeating the experiment
+- Create a line plot with an error (standard deviation) indicating the variability of the maximum degrees
+- Issue: not efficiently run for the very large n
+
+Sep 5, 2022
+- Profile on the code to see where is the part of code that takes too long
+- It appears that when generating larger nodes using sample_spanning_tree takes too much time
+- First notice: using a lot of lists and append tons of elements into the list
+
+Sep 7-13, 2022
+- Try speeding up the code by using numpy array and more list comprehension
+- Also, go through some part of the code and reconsider modify the algorithm (path analysis)
+- Results: significantly better in performance
+- Issue: still takes too long to run a very very large node (n = 5000)
