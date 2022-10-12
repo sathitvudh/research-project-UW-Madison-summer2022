@@ -1,7 +1,7 @@
 # UW-Madison Research Project summer 2022
 
 ## Grimmet's Probability on Random Graphs and sampling from USVT
-### Research supervisor: Professor Keith D. Levin
+### Research supervisor: Professor Keith D. Levin (Department of Statistics, University of Wisconsin--Madison)
 
 ### Project Overview
 This research project works on the random graphs and sample spanning trees based on Wilson's algorithm. This includes Python programming to perform each analysis. The methodologies consist of (as of Oct-12-2022):
