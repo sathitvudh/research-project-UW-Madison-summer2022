@@ -76,3 +76,12 @@ Sep 7-13, 2022
 - Also, go through some part of the code and reconsider modify the algorithm (path analysis)
 - Results: significantly better in performance
 - Issue: still takes too long to run a very very large node (n = 5000)
+
+November, 2022
+- Successfully speeding up code
+- Tried with completed graphs
+
+January 7-18, 2023
+- Start working on creating functions related to Prufer sequence
+- Created function "prufer_to_tree" and "tree_to_prufer" with several sanity checkings
+- Result: everything currently works well (Tried encoding and decoding several different sequences)
