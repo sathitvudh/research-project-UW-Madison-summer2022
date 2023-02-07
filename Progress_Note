@@ -85,3 +85,8 @@ January 7-18, 2023
 - Start working on creating functions related to Prufer sequence
 - Created function "prufer_to_tree" and "tree_to_prufer" with several sanity checkings
 - Result: everything currently works well (Tried encoding and decoding several different sequences)
+
+February 1-7, 2023
+- Created function "constrained_model_prufer" to generate Prufer sequence under the conditions of ds
+- Created function "exact_model_prufer" to generate Prufer sequence under the conditions of ds
+- Result: the functions work well as the probability of selecting trees are approximately equal.
